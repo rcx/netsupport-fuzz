@@ -3,7 +3,7 @@
 This is just a loose collection of my old research on LANDesk/NetSupport's replay system from when I was bored in computer class in high school. I saw that there was a tray icon that had an option to "Load Replay..." or something like that, and I also noticed it was running as an admin (!) user. It would be cool to have a LPE using this mechanism if I could exploit the replay parser.
 
 Using WinAFL and DynamoRIO I found a heap overflow, essentially as it parses a file, you pass it a negative size field which leads to a size overflow.
-Unfortunately the school's computer was on Windows 10 which has a [very arcane heap](https://www.blackhat.com/docs/us-16/materials/us-16-Yason-Windows-10-Segment-Heap-Internals.pdf), and before I exploited it I graduated. I included the idbs so you can check that logic out yourself.
+Unfortunately the school's computer was on Windows 10 which has a [very arcane heap](https://www.blackhat.com/docs/us-16/materials/us-16-Yason-Windows-10-Segment-Heap-Internals.pdf), and before I exploited it I graduated. I included the idbs so you can check that logic out yourself. I guess you can count this as a local DoS exploit...lol
 
 ## Try it yourself
 
