@@ -1,0 +1,6 @@
+/l = lock
+/b = blank
+/a = annotate
+/c = file something?
+/d = show ini file?
+/r = replay

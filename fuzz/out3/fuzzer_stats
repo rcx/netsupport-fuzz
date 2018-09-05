@@ -1,0 +1,27 @@
+start_time        : 13166677713
+last_update       : 13166679015
+fuzzer_pid        : 0
+cycles_done       : 0
+execs_done        : 229619
+execs_per_sec     : 230.95
+paths_total       : 739
+paths_favored     : 30
+paths_found       : 135
+paths_imported    : 0
+max_depth         : 2
+cur_path          : 462
+pending_favs      : 21
+pending_total     : 725
+variable_paths    : 737
+stability         : 65.90%
+bitmap_cvg        : 3.51%
+unique_crashes    : 13
+unique_hangs      : 11
+last_path         : 13166678912
+last_crash        : 13166678470
+last_hang         : 13166678468
+execs_since_crash : 121056
+exec_timeout      : 10000
+afl_banner        : ConsoleApplication1.exe
+afl_version       : 2.43b
+command_line      : afl-fuzz.exe -t 10000 -i - -o out3 -D C:\Users\User\Downloads\NetSupport\DynamoRIO-Windows-6.2.0-2\bin32 -f C:\Users\User\Desktop\fuzz.rpf -- -target_module ConsoleApplication1.exe -target_method FuzzMe -coverage_module PCICL32.dll -call_convention cdecl -nargs 0 -fuzz_iterations 1000 -- C:\Users\User\Desktop\netsucc\ConsoleApplication1\Debug\ConsoleApplication1.exe
